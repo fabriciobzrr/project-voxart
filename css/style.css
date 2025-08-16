@@ -1,0 +1,159 @@
+* {
+  color: #1e1e1e;
+}
+
+a,
+i {
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.secondary-color {
+  color: #666;
+}
+
+.center-image {
+  background-size: cover;
+  background-position: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #1e1e1e;
+  border-radius: 0;
+}
+
+.btn:hover {
+  background-color: #ccc;
+  color: #1e1e1e;
+}
+
+/* Header */
+#header {
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  font-size: 42px;
+  padding-right: 15px;
+}
+
+#header h1 {
+  font-size: 64px;
+  color: #000;
+}
+
+#header p {
+  margin: 0 auto;
+  border-bottom: 1px solid #ddd;
+  width: fit-content;
+}
+
+/* Navbar */
+
+#navbar {
+  padding: 0.7rem;
+  margin: 10px auto;
+}
+
+#navbar a {
+  width: fit-content;
+  color: #444;
+}
+
+#navbar a:hover {
+  color: #ccc;
+}
+
+/* Banner */
+
+.main-image {
+  height: 500px;
+  background-image: url("../img/g_1.jpg");
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.main-banner-info {
+  background-color: #ffffffcc;
+  padding: 2rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+/* Grid de artes */
+
+#img1 {
+  background-image: url("../img/g_2.jpg");
+}
+
+#img2 {
+  background-image: url("../img/g_3.jpg");
+}
+
+#img3 {
+  background-image: url("../img/g_4.jpg");
+}
+
+#img4 {
+  background-image: url("../img/g_5.jpg");
+}
+
+#img5 {
+  background-image: url("../img/g_6.jpg");
+}
+
+.gallery-container h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.gallery-container h1,
+.gallery-container .col-12,
+.gallery-container .col-md-6 {
+  margin-bottom: 4rem;
+}
+
+.image-container-card {
+  height: 400px;
+  margin-bottom: 1.5rem;
+}
+
+/* Footer */
+
+footer {
+  border-top: 1px solid #ccc;
+  height: 250px;
+  padding: 1.5rem;
+}
+
+footer div {
+  text-align: center;
+}
+
+footer i {
+  font-size: 1.5rem;
+}
+
+footer p {
+  text-align: center;
+  margin: 1.1rem;
+}
+
+.social-media-container {
+  padding: 1rem;
+}
+
+a:hover i {
+  color: #ccc;
+}
